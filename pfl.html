@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Profile Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Agung Trisusetyo</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Pendidikan</a></li>
+            <li><a href="#profession">Profesi</a></li>
+            <li><a href="#programming">Bahasa</a></li>
+            <li><a href="#news">Berita</a></li>
+            <li><a href="#contact">Pesan</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <header class="hero-section" id="home">
+        <div class="hero-content">
+            <h1>Halo</h1>
+            <p>Perkenalkan, nama saya Agung Trisuseto. Saya adalah mahasiswa angkatan 2021 di Universitas Negeri Surabaya, Jurusan Teknik Informatika, Kampus Ketintang.</p>
+            <a href="#cv" class="cta-button">CV SAYA</a>
+        </div>
+        <img src="/profil.png" alt="Foto Profil Agung Trisuseto" class="profile-image">
+        <a href="#skills" class="scroll-button">⬇</a>
+    </header>
+
+    <div id="stars-container"></div>
+
+    <section class="skills-section" id="skills">
+        <img src="./skill.png" alt="Foto Skill Agung Trisuseto" class="skill-image fade-in">
+        <div class="skills-content fade-in">
+            <h1>Presentasi Skill yang Dikuasai</h1>
+            <div class="skill fade-in">
+                <h2>Web Development</h2>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill fade-in">
+                <h2>Mobile App Development</h2>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;">75%</div>
+                </div>
+            </div>
+            <div class="skill fade-in">
+                <h2>UI/UX Design</h2>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 65%;">65%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- New Projects Section -->
+<section class="projects-section" id="projects">
+    <h1>Proyek yang Pernah Dikerjakan</h1>
+    <div class="projects-wrapper">
+        <div class="project-container">
+            <a href="https://example.com/portfolio" target="_blank" class="project-link">
+                <div class="project">
+                    <h2>Website Portfolio</h2>
+                    <p>Deskripsi singkat tentang proyek ini. Menggunakan HTML, CSS, dan JavaScript untuk membuat website yang menampilkan portofolio saya.</p>
+                </div>
+            </a>
+            <a href="https://example.com/mobile-app" target="_blank" class="project-link">
+                <div class="project">
+                    <h2>Aplikasi Mobile</h2>
+                    <p>Deskripsi singkat tentang aplikasi mobile yang telah dikembangkan. Memanfaatkan framework Flutter untuk pengembangan lintas platform.</p>
+                </div>
+            </a>
+            <a href="https://example.com/ui-ux" target="_blank" class="project-link">
+                <div class="project">
+                    <h2>UI/UX Design Project</h2>
+                    <p>Deskripsi singkat tentang proyek desain UI/UX. Menerapkan prinsip desain untuk meningkatkan pengalaman pengguna.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- New Education Section -->
+<section class="education-section" id="education">
+    <h1>Pendidikan</h1>
+    <div class="education-wrapper">
+        <div class="education-item">
+            <p class="years">2009 - 2015</p>
+            <h2>Sekolah Dasar</h2>
+            <p><strong><a href="https://maps.google.com/?q=SD+Islam+Nurul+Iman" target="_blank" rel="noopener noreferrer">SD Islam Nurul Iman</a></strong></p>
+            <p>Selama di SD Nurul Iman, saya mempelajari dasar-dasar pendidikan, aktif dalam kegiatan ekstrakurikuler seperti seni dan olahraga, serta meraih penghargaan dalam kompetisi seni.</p>
+        </div>
+        <div class="education-item">
+            <p class="years">2015 - 2018</p>
+            <h2>Sekolah Menengah Pertama</h2>
+            <p><strong><a href="https://maps.google.com/?q=SMP+NU+Bahrul+Ulum" target="_blank" rel="noopener noreferrer">SMP NU Bahrul Ulum</a></strong></p>
+            <p>Di SMP NU Bahrul Ulum, saya fokus pada mata pelajaran sains dan matematika, aktif dalam klub sains, serta berpartisipasi dalam lomba akademik di tingkat kabupaten.</p>
+        </div>
+        <div class="education-item">
+            <p class="years">2018 - 2021</p>
+            <h2>Sekolah Menengah Atas</h2>
+            <p><strong><a href="https://maps.google.com/?q=SMAN+1+Menganti+Gresik" target="_blank" rel="noopener noreferrer">SMAN 1 Menganti Gresik</a></strong></p>
+            <p>Di SMAN 1 Menganti Gresik, saya menjabat sebagai ketua OSIS, aktif dalam kompetisi akademik dan olahraga, serta lulus dengan nilai baik di ujian nasional.</p>
+        </div>
+        <div class="education-item">
+            <p class="years">2021 - Sekarang</p>
+            <h2>Kampus</h2>
+            <p><strong><a href="https://maps.google.com/?q=Universitas+Negeri+Surabaya" target="_blank" rel="noopener noreferrer">Universitas Negeri Surabaya</a></strong></p>
+            <p>Di Universitas Negeri Surabaya, saya terlibat dalam berbagai organisasi dan proyek penelitian yang mendukung pengembangan keterampilan saya.</p>
+        </div>
+    </div>
+</section>
+
+<!-- New Profession Section -->
+<section class="profession-section" id="profession">
+    <h1>Profesi</h1>
+    <div class="profession-filter">
+        <div class="profession-options">
+            <button class="profession-option" data-value="all" onclick="filterProfession('all')">Semua</button>
+            <button class="profession-option" data-value="creative" onclick="filterProfession('creative')">Kreatif</button>
+            <button class="profession-option" data-value="arts" onclick="filterProfession('arts')">Seni</button>
+            <button class="profession-option" data-value="design" onclick="filterProfession('design')">Desain</button>
+            <button class="profession-option" data-value="branding" onclick="filterProfession('branding')">Branding</button>
+        </div>
+    </div>
+    <div class="profession-wrapper" id="profession-wrapper">
+        <!-- Profession items will be dynamically inserted here -->
+    </div>
+</section>
+
+<section class="programming-section" id="programming">
+    <h2>Bahasa Pemrograman dan Teknologi yang Dikuasai</h2>
+    <div class="programming-list">
+        <div class="programming-language">
+            <img src="/js.png" alt="JavaScript Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/python.png" alt="Python Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/java.png" alt="Java Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/cj.png" alt="C# Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/php.png" alt="PHP Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/ruby.png" alt="Ruby Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/cplus.png" alt="C++ Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/swift.png" alt="Swift Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/go.png" alt="Go Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/kotlin.png" alt="Kotlin Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/typescript.png" alt="TypeScript Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/react.png" alt="React Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/html.png" alt="HTML Logo" class="language-logo">
+        </div>
+        <div class="programming-language">
+            <img src="/css.png" alt="CSS Logo" class="language-logo">
+        </div>
+    </div>
+</section>
+
+
+<!-- News Section -->
+<section class="news-section" id="news">
+    <h2>Berita Terbaru</h2>
+    <div class="news-list">
+        <article class="news-item">
+            <img src="/java.jpg" alt="Gambar Berita 1" class="news-image">
+            <h3>Peluncuran Java 21: Fitur Baru yang Mempermudah Pengembangan</h3>
+            <p>Java 21 telah diluncurkan dengan banyak fitur baru, termasuk peningkatan performa dan kemudahan dalam pengembangan aplikasi...</p>
+            <a href="https://codegym.cc/id/groups/posts/id.649.java-pada-tahun-2021-pembaruan-pada-versi-16-dan-17-popularitas-di-asia-dan-keberlanjutan-da" target="_blank">Baca Selengkapnya</a>
+        </article>
+        <article class="news-item">
+            <img src="/OIP.jpg" alt="Gambar Berita 2" class="news-image">
+            <h3>Python 3.12: Apa yang Baru dan Bagaimana Cara Menggunakannya?</h3>
+            <p>Python 3.12 menawarkan banyak perbaikan dan fitur baru yang meningkatkan efisiensi pengembangan. Pelajari lebih lanjut tentang pembaruan ini...</p>
+            <a href="https://docs.python.org/id/3.12/whatsnew/" target="_blank">Baca Selengkapnya</a>
+        </article>
+        <article class="news-item">
+            <img src="/react.jpg" alt="Gambar Berita 3" class="news-image">
+            <h3>Framework React: Mengapa Masih Menjadi Pilihan Utama Developer?</h3>
+            <p>React tetap menjadi salah satu framework paling populer untuk pengembangan front-end. Artikel ini membahas mengapa developer terus memilihnya...</p>
+            <a href="https://www.bing.com/search?q=Framework+React%3a+Mengapa+Masih+Menjadi+Pilihan+Utama+Developer&FORM=HDRSC1" target="_blank">Baca Selengkapnya</a>
+        </article>
+        <!-- New Articles -->
+        <article class="news-item">
+            <img src="/dnjago.jpg" alt="Gambar Berita 4" class="news-image">
+            <h3>Django 4.0: Pembaruan dan Fitur Menarik yang Harus Anda Ketahui</h3>
+            <p>Django 4.0 membawa banyak fitur baru yang membantu pengembangan aplikasi web. Temukan lebih lanjut tentang pembaruan ini...</p>
+            <a href="https://www.djangoproject.com/weblog/2021/dec/07/django-40-released/" target="_blank">Baca Selengkapnya</a>
+        </article>
+        <article class="news-item">
+            <img src="/typescript.jpg" alt="Gambar Berita 5" class="news-image">
+            <h3>TypeScript 4.5: Apa yang Baru dan Bagaimana Menggunakannya?</h3>
+            <p>TypeScript 4.5 memperkenalkan banyak fitur baru untuk meningkatkan pengalaman pengembangan. Pelajari lebih lanjut tentang update ini...</p>
+            <a href="https://devblogs.microsoft.com/typescript/announcing-typescript-4-5/" target="_blank">Baca Selengkapnya</a>
+        </article>
+        <article class="news-item">
+            <img src="/flutter.jpg" alt="Gambar Berita 6" class="news-image">
+            <h3>Flutter 2.5: Fitur Baru untuk Pengembangan Aplikasi yang Lebih Baik</h3>
+            <p>Flutter 2.5 menawarkan berbagai pembaruan yang membantu developer dalam menciptakan aplikasi yang responsif dan menarik...</p>
+            <a href="https://flutter.dev/docs/release/whats-new" target="_blank">Baca Selengkapnya</a>
+        </article>
+        <article class="news-item">
+            <img src="/kotlin.jpg" alt="Gambar Berita 7" class="news-image">
+            <h3>Kotlin 1.5: Pembaruan Terbaru dan Peningkatan Kinerja</h3>
+            <p>Kotlin 1.5 menghadirkan berbagai fitur baru dan perbaikan yang meningkatkan kinerja dan pengalaman pengembang. Temukan lebih lanjut...</p>
+            <a href="https://kotlinlang.org/docs/whatsnew15.html" target="_blank">Baca Selengkapnya</a>
+        </article>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <h2>Kirim Pesan</h2>
+    <div class="contact-form">
+        <form action="YOUR_EMAIL_HANDLER_URL" method="POST">
+            <div class="form-group">
+                <label for="name">Nama Kamu:</label>
+                <input type="text" id="name" name="name" required placeholder="Masukkan nama kamu">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Kamu:</label>
+                <input type="email" id="email" name="email" required placeholder="Masukkan email kamu">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subjek:</label>
+                <input type="text" id="subject" name="subject" required placeholder="Masukkan subjek pesan">
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Tulis pesan kamu di sini..."></textarea>
+            </div>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <p>Agung Trisusetyo</p>
+    <div class="social-icons">
+        <a href="https://github.com/username" target="_blank">
+            <img src="/github.png" alt="GitHub" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/username" target="_blank">
+            <img src="/linkedin.png" alt="LinkedIn" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com/username" target="_blank">
+            <img src="/instagram.png" alt="Instagram" class="social-icon">
+        </a>
+        <a href="mailto:email@example.com">
+            <img src="/email.webp" alt="Email" class="social-icon">
+        </a>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
